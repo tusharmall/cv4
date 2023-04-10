@@ -1,0 +1,54 @@
+/*********************************************tag selectors**************************************/
+
+body{
+        background-color:#FFF4E0;
+    }
+hr{
+        border-style:none;
+        border-color:grey;
+        border-top-style: dotted ;
+        border-width:6px;
+        width:5%;
+                
+    }
+img {
+        height: 150px;
+    }
+h1{
+    color:black;
+}
+h3{
+    color:#B46060;
+    
+}
+/*for all images in web page
+img{
+    background-color:#B46060;
+}
+*/
+/*************************************************class selectors*********************************/
+/*for particular image*/
+.student{
+    background-color:#B46060;
+} ;
+.contacts{
+    background-color: red;
+}
+/*************************************************id selectors*********************************/
+#heading{
+    background-color:#B46060;
+}
+.student{
+    border-radius: 100%;
+}
+/*************************************************pseudo classes*******************************/
+img:hover{
+    background-color: white;
+}
+/* for particular image*/
+.student:hover{
+    background-color: white;
+}
+.contacts:hover{
+    background-color: black;
+}
